@@ -19,7 +19,7 @@ Il broker interno ha una doppia autenticazione:
 - Certificati: per questi c'è bisogno di certificati generati internamente dalla board. Nella cartella Certificates sono disponibili i 3 certificati che servono per connettersi, spiegati meglio nella sotto sezione successiva
 - Username e Password: in questo momento ci sono tre utenti con le rispettive password, descritte in dettaglio nelle prossime sotto sezioni
 
-## Certificati
+# Certificati
 La cartella Certificates contiene 2 certificati ed una chiave, necessari per connettersi al broker MQTT interno:
 
  - client.crt: certificato del client rilasciato dalla Certificate Authority interna del Gateway: è il certificato del dispositivo che si sta connettendo. Per ragioni di sviluppo c'è un certificato unico per tutti i client. In seguito verrà rilasciato un certificato per dispositivo.
@@ -29,7 +29,7 @@ La cartella Certificates contiene 2 certificati ed una chiave, necessari per con
 Questi tre file sono necessari per connettersi sia come publisher che come subscriber. In particolar modo, il loro percorso ASSOLUTO (non relativo) va inserito come parametro nella funzione:
 client.tls_set(ca_certs=\<path assoluto del file ca.crt>, certfile=\<path assoluto del file client.crt>, keyfile=\<path assoluto del file client.key>).
 
-## Username e password
+# Username e password
 In questo momento, ci sono solo tre utenti autorizzati ad accedere. Username e Password di questi utenti coincidono.
 
 - sensor : può scrivere sui topic "image/#" e "sensor/#"
