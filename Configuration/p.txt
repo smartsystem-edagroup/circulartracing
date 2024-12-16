@@ -1,0 +1,3 @@
+sensor:$6$6PhWJyEB0e8JzRKk$6bh0pH9FOWgxyjDxks+cEf+Y8NYItxZcmjJOFf+oLLcjin2h3BwqDEPu5Bz5pkgMK9Cry9A6SNak141B4yEmBQ==
+gateway:$6$DlSWD+fcKcRj96rc$QRrpAuI+wbchbXQOuxd+sp2YOzHmcQBW/rmApsa+w2NqnMojtbMm97y6mYS+3hxqjvELE6CeXbswhSDhj2kpXQ==
+listener:$6$+rsefgm7C/CO43bS$rNd22FUALqM1i3G1Y3sAvxiMxauxoq/wsmgv4W6fcMuX6DzbDfBT/0vKXhGUeOUF0BubCUgNE6g6yfNiSL4wGQ==

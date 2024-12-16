@@ -1,0 +1,14 @@
+#sensor can only write to sensor image
+user sensor
+topic write image/#
+topic write sensor/#
+
+#gateway can read on everything can only write on output
+user gateway
+topic read image/#
+topic read sensor/#
+topic write output/#
+
+#listener can only read
+user listener
+topic read output/#
